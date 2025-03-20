@@ -1,23 +1,19 @@
 ✅ 1. Set Up the Environment
 Clone or download the project locally.
 Run the following commands:
-bash
-Copy
-Edit
 npm install
 npm start
+
 Ensure the app is running on http://localhost:3000.
 Install the CodeSandbox CLI globally if needed:
-bash
-Copy
-Edit
 npm install -g codesandbox
+
 Upload to CodeSandbox when you're ready:
-bash
-Copy
-Edit
 npm run upload
+
 Ensure the link is editable and not read-only.
+
+
 🐞 2. Debugging Approach
 Bug 1: Select dropdown doesn't scroll with the page
 
@@ -49,6 +45,8 @@ Bug 7: Approving a transaction won't persist
 
 Ensure state mutations persist across filter changes.
 Store the approval status in a global store or a persistent layer.
+
+
 📤 3. Submission Checklist
 Ensure all bugs are fixed and tested.
 Open email.txt and add your email address.
